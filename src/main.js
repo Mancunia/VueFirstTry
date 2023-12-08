@@ -1,4 +1,9 @@
 import { createApp } from 'vue'
 import App from './App.vue'
+import router from '@/router'
 
-createApp(App).mount('#app')
+const forumFirstTry = createApp(App)
+
+forumFirstTry.use(router)// use router
+
+forumFirstTry.mount('#app')

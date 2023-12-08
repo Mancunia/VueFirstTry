@@ -1,0 +1,29 @@
+*{
+    font-weight: bolder;
+}
+
+.threads-container{
+    /* width: max-content;
+    max-width: 50%;
+    margin: 10px auto;
+    padding: 10px;
+    box-shadow: #000 0.5px 0.5px 0.5px 0.5px; */
+    display: block;
+   
+    
+}
+
+.post{
+    max-width: 50%;
+    margin: 10px auto;
+    padding: 10px;
+    box-shadow: #000 0.5px 0.5px 0.5px 0.5px;
+
+    display: flex;
+    /* flex-direction: row; */
+    align-content:space-evenly;
+}
+.post-user{
+    display: flex;
+    flex-direction: column;
+}

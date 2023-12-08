@@ -1,0 +1,76 @@
+{
+    "categories":[
+        {
+            "id":"c1",
+            "name":"Chats",
+            "forums":["f1"]
+        }
+    ],
+    "forums":[
+        {
+        "id":"f1",
+        "name":"Fishing",
+        "description":"lets talk fishing",
+        "category":"c1",
+        "threads":["t1"]
+        }
+    ],
+    "users":[
+        {
+            "id":"u1",
+            "name":"Emmanuel",
+            "posts":271
+        },
+        {
+            "id":"u2",
+            "name":"Eric",
+            "posts":274
+        }
+    ],
+    "threads":[
+        {
+            "id":"t1",
+            "title":"What is a woman?",
+            "publishedAt": 122328734,
+            "posts":["p1","p2"],
+            "userId":"u1"
+        },
+        {
+            "id":"t2",
+            "title":"What is a man?",
+            "publishedAt": 122328734,
+            "posts":["p2","p3","p1"],
+            "userId":"u2"
+        },
+        {
+            "id":"t3",
+            "title":"What is a boy?",
+            "publishedAt": 122328734,
+            "posts":["p2","p1"],
+            "userId":"u1"
+        }
+    ],
+    "posts":[
+        {
+            "id":"p1",
+            "text":"Someone with a pussy 😅",
+            "publishedAt": 122328734,
+            "userId":"u1",
+            "theadId":"t1"
+        },
+        {
+            "id":"p2",
+            "text":"Someone with much more ass 🤬",
+            "publishedAt": 122328734,
+            "userId":"u2",
+            "theadId":"t1"
+        },
+        {
+            "id":"p3",
+            "text":"Someone with much more ass and tits 🤬",
+            "publishedAt": 122328734,
+            "userId":"u2",
+            "theadId":"t1"
+        }
+    ]
+}

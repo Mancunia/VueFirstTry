@@ -7,12 +7,13 @@
         <div class="thread-posts">{{ thread.posts.length }}</div>
         <div class="thread-owner-dp">
             <h3>{{ userById(thread.userId).name }}</h3>
+            <AppDate :timestamp="thread.publishedAt" />
         </div>
     </div>
 </template>
 
 <script>
-import data from '@/data.json'
+
 export default {
   name: 'ThreadItem',
   props: {
@@ -21,21 +22,19 @@ export default {
       type: Object
     }
   },
-
   data () {
     return {
-      users: data.users
+      users: this.$store.state.Data.users
     }
   },
   methods: {
     userById (userId) {
       return this.users.find(u => u.id === userId)
     }
-
   }
 }
 </script>
 
-<style lang="scss" scoped>
+<style lang="" scoped>
 
 </style>

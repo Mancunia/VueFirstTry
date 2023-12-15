@@ -4,6 +4,11 @@
             "id":"c1",
             "name":"Chats",
             "forums":["f1"]
+        },
+        {
+            "id":"c2",
+            "name":"Talks",
+            "forums":["f1","f2","f3"]
         }
     ],
     "forums":[
@@ -12,8 +17,22 @@
         "name":"Fishing",
         "description":"lets talk fishing",
         "category":"c1",
-        "threads":["t1"]
-        }
+        "threads":["t1","t3"]
+        },
+        {
+            "id":"f2",
+            "name":"Football",
+            "description":"lets talk fishing",
+            "category":"c1",
+            "threads":["t1","t3","t2"]
+         },
+        {
+                "id":"f3",
+                "name":"Golf",
+                "description":"lets talk fishing",
+                "category":"c2",
+                "threads":["t1","t3","t2"]
+                }
     ],
     "users":[
         {
@@ -38,14 +57,14 @@
         {
             "id":"t2",
             "title":"What is a man?",
-            "publishedAt": 122328734,
+            "publishedAt": 922328734,
             "posts":["p2","p3","p1"],
             "userId":"u2"
         },
         {
             "id":"t3",
             "title":"What is a boy?",
-            "publishedAt": 122328734,
+            "publishedAt": 922328734,
             "posts":["p2","p1"],
             "userId":"u1"
         }
@@ -54,14 +73,14 @@
         {
             "id":"p1",
             "text":"Someone with a pussy 😅",
-            "publishedAt": 122328734,
+            "publishedAt": 922328734,
             "userId":"u1",
             "theadId":"t1"
         },
         {
             "id":"p2",
             "text":"Someone with much more ass 🤬",
-            "publishedAt": 122328734,
+            "publishedAt": 9223287348,
             "userId":"u2",
             "theadId":"t1"
         },

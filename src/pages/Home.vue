@@ -4,13 +4,13 @@
 </template>
 
 <script>
-import data from '@/data.json'
-import ThreadList from './ThreadList.vue'
+
+import ThreadList from '@/components/ThreadList.vue'
 
 export default {
   data () {
     return {
-      threads: data.threads
+      threads: this.$store.state.Data.threads
     }
   },
   components: {

@@ -13,6 +13,12 @@
     
 }
 
+.thread-item{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
 .post{
     max-width: 50%;
     margin: 10px auto;
